@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         val email = binding.Email.text.toString()
 
         if (fullName.isEmpty() || email.isEmpty()) {
-            Toast.makeText(this, "Enter FullName and Email(maybe one of them is empty)! ", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Enter  FullName and Email(maybe one of them is empty)! ", Toast.LENGTH_SHORT).show()
             return
         }
 
