@@ -1,0 +1,68 @@
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="22dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_user_and_get_info"
+        android:gravity="center"
+        android:textSize="35sp"/>
+    <EditText
+        android:id="@+id/Fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_full_name"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:id="@+id/Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_email"
+        android:inputType="textEmailAddress"
+        android:textSize="22sp"/>
+
+    <Button
+        android:id="@+id/AddUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_user"
+        android:textSize="22sp"/>
+
+    <TextView
+        android:id="@+id/NumOfUsers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/users_0"
+        android:textSize="22sp"
+        android:layout_marginTop="33dp" />
+
+    <EditText
+        android:id="@+id/SearchEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/search_email"
+        android:textSize="22sp"
+        android:layout_marginTop="7dp"/>
+
+    <Button
+        android:id="@+id/GetUserInfoBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/get_user_info"
+        android:textSize="22sp"
+        android:layout_marginTop="7dp"/>
+
+    <TextView
+        android:id="@+id/UserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="22dp"
+        android:textSize="12sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

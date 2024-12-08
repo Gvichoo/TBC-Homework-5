@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">UserData</string>
+    <string name="get_user_info">Get user info</string>
+    <string name="users_0"><![CDATA[Users -> 0]]></string>
+    <string name="add_user">Add user</string>
+    <string name="add_user_and_get_info">Add user and get info :)</string>
+    <string name="enter_email">Enter email</string>
+    <string name="search_email">Search email</string>
+    <string name="enter_full_name">Enter full name</string>
+</resources>
